@@ -128,16 +128,12 @@ extension GroupDateVC: UITableViewDataSource, UITableViewDelegate {
               let event = events[safe: indexPath.row] else {
             return cell
         }
-//        cell.textLabel?.text = event.created?.toDate(dateForMate: "yyyy-MM-dd HH:mm")
-        
+
         cell.textLabel?.text = event.desc
         return cell
     }
     
-//    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-//        return dates[section]
-//    }
-    
+
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
         let header = UIView()
@@ -187,7 +183,6 @@ extension Array {
 
 extension Int{
     func toDate(dateForMate: String) -> String{
-
         let date = Date(timeIntervalSince1970: TimeInterval(self / 1000))
 
         let displayFormatter = DateFormatter()

@@ -60,6 +60,7 @@
 		FA3B8DA52C195BB500066ADB /* GroupDate */ = {
 			isa = PBXGroup;
 			children = (
+				FA856FBB2CE2456100E59854 /* Utilities */,
 				FA3B8DBA2C195BC700066ADB /* MainApp */,
 				FA3B8DBB2C195BDC00066ADB /* UIscreen */,
 				FA3B8DAC2C195BB500066ADB /* Main.storyboard */,
@@ -95,6 +96,13 @@
 				FA3B8DBF2C195CCF00066ADB /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FA856FBB2CE2456100E59854 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
